@@ -33,9 +33,8 @@ module.exports = function helmholtz(name) {
   var accidentalValue = accval.interval(parts[3].toLowerCase());
   var coord = coords(note.toLowerCase());
 
-  coord[0] += octave;
-  coord[0] += accidentalValue[0] - coords.A4[0];
-  coord[1] += accidentalValue[1] - coords.A4[1];
+  coord[0] += octave * 7 + accidentalValue[0] - coords.A4[0];
+  coord[1] += octave * 12 + accidentalValue[1] - coords.A4[1];
 
   return coord;
 };
