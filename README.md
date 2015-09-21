@@ -1,7 +1,7 @@
 # helmholtz
 
 <small>Fork of https://github.com/saebekassebil/interval-coords,
-using [steps, semitones] instead of [fifths, octaves]
+using `[steps, semitones]` instead of `[fifths, octaves]`
 
 See the teoria fork at https://github.com/erikronstrom/teoria for more info.</small>
 
