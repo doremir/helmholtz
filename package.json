@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/saebekassebil/helmholtz",
   "dependencies": {
-    "erikronstrom/accidental-value": "^1.0.0",
-    "erikronstrom/notecoord": "^1.0.1"
+    "accidental-value": "erikronstrom/accidental-value",
+    "notecoord": "erikronstrom/notecoord"
   },
   "devDependencies": {
     "tape": "^2.13.3"
